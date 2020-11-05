@@ -15,7 +15,7 @@
     <div class="container">
         <header>
             <img src="img/logo-unad.png" alt="Universidad Nacional Abierta y a Distancia" class="logo">
-            <h1 class="title">Etiquetas HTML5</h1>
+            <h1 class="title">CSS3 y Selectores</h1>
         </header>
 
         <aside>
@@ -36,47 +36,46 @@
             <h2>Conceptos</h2>
             <article>
                 <p>
-                    Con la llegada de HTML5 y con el auge de la web semántica se establecieron nuevas etiquetas que dieran mejor
-                    significado a la estructura básica de una web, recomendando dejar de usar la etiqueta &lt;div&gt; en muchos
-                    de los casos.
-                </p>
-                <p>
-                    Estas son algunas de las nuevas etiquetas:
-                </p>
-        
-                <ul>
-                    <li>
-                        <code>&lt;header&gt;...&lt;/header&gt;</code> Es el encabezado de la pagina. Contiene los elementos mas
-                        importantes de identidad y navegación de la página. Tambien puede ser usado dentro de de la etiqueda <code>&lt;article&gt;&lt;/article&gt;</code>
-                    </li>
-                    <li>
-                        <code>&lt;footer&gt;...&lt;/footer&gt;</code> Es el pie de página. Contiene normalmente la información
-                        de contacto, el copyright u otros enlaces de interés.
-                    </li>
-                    <li>
-                        <code>&lt;section&gt;...&lt;/section&gt;</code> Nos permite definir diferentes secciones dentro de la
-                        misma página o pequeños bloques de contenido.
-                    </li>
-                    <li>
-                        <code>&lt;aside&gt;...&lt;/aside&gt;</code> Representa una parte de la página que contiene información
-                        que no está relacionada con el contenido principal. Por ejemplo publicidad, enlaces externos,
-                        calendarios incluso se puede ubicar el menú.
-                    </li>
-                    <li>
-                        <code>&lt;article&gt;...&lt;/article&gt;</code> En un blog puede representar el texto de cada artículo,
-                        en un foro cada mensaje publicado por un usuario o en un periódico puede ser cada noticia.
-                    </li>
-                </ul>
+            Vamos a ver dos formas adicionales de aplicar estilos CSS: en la parte inicial del documento HTML (aplicación de estilos interna o CSS interno) o en un archivo de extensión .css independiente del archivo HTML (aplicación de estilos externa o CSS externo).
+        </p>
+        <p>
+                <strong>CSS INTERNO</strong>
+        </p>
+            <p>
+                Vamos a ver ahora c&oacute;mo podemos definir esos estilos en la cabecera del documento HTML usando la siguiente sintaxis:
+            </p>
+            <center>
+                <table align="center" bgcolor="#bdbdbd" border="1" cellpadding="7" cellspacing="1" width="418">
+                    <tbody>
+                        <tr>
+                            <td>
+                                &lt;head&gt;<br />
+                                &hellip;<br />
+                                &lt;style type=&quot;text/css&quot;&gt;<br />
+                                elementoAfectadoPorElEstilo {<br />
+                                propiedad1ParaEseTipoDeElementos:valor;<br />
+                                propiedad2ParaEseTipoDeElementos:valor;<br />
+                                propiedad3ParaEseTipoDeElementos:valor;<br />
+                                &hellip;<br />
+                                propiedadnParaEseTipoDeElementos:valor;<br />
+                                }<br />
+                                &lt;/style&gt;<br />
+                                &lt;/head&gt;</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </center>
             </article>
 
             <p>
-                Recio García, J. A. (2016). HTML5, CSS3 y JQuery: curso práctico. RA-MA Editorial. Recuperado de
+                Guarini, G. D. (2013). HTML5 and CSS3 Transition, Transformation and Animation. Birmingham: Packt Publishing.
+                        Recuperado de 
                         <a
-                            href="https://elibro-net.bibliotecavirtual.unad.edu.co/es/ereader/unad/106494?page=64">https://elibro-net.bibliotecavirtual.unad.edu.co/es/ereader/unad/106494?page=64</a>.
+                            href="http://bibliotecavirtual.unad.edu.co:2051/login.aspx?direct=true&db=nlebk&AN=672978&lang=es&site=eds-live">http://bibliotecavirtual.unad.edu.co:2051/login.aspx?direct=true&db=nlebk&AN=672978&lang=es&site=eds-live</a>.
             </p>
             <p>
-                Mozilla Fundation. (2020). HTML elements reference. Recuperado de MDN web docs: <a
-                            href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element#Content_sectioning">https://developer.mozilla.org/en-US/docs/Web/HTML/Element#Content_sectioning</a>.
+                LaGrone, B. (2013). HTML5 and CSS3 Responsive Web Design Cookbook : Learn the Secrets of Developing Responsive Websites Capable of Interfacing with Today's Mobile Internet Devices. Birmingham: Packt Publishing. Recuperado de <a
+                            href="http://bibliotecavirtual.unad.edu.co:2051/login.aspx?direct=true&db=nlebk&AN=587815&lang=es&site=eds-live">http://bibliotecavirtual.unad.edu.co:2051/login.aspx?direct=true&db=nlebk&AN=587815&lang=es&site=eds-live</a>.
             </p>
 
             <div style="text-align: right; width: 100%;"><a href="concepts-02.html">Siguiente</a></div>
